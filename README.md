@@ -14,7 +14,7 @@ curl -X 'POST' \
       "minute": 51
   }'
 ```
-![curl.png](curl.png)
+
 
 > python调用方式也可以参考目录下的test.py
 
