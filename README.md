@@ -14,11 +14,12 @@ curl -X 'POST' \
       "minute": 51
   }'
 ```
-> ![curl.png](curl.png) 
-> 
+![curl.png](curl.png)
+
 > python调用方式也可以参考目录下的test.py
-> ![image.png](image.png) 
-> 
+
+![image.png](image.png) 
+
 > 信息还是很丰富的，就是有的看的不太明白
 > 
 > 原项目地址[github地址](https://github.com/OPN48/cnlunar.git)
@@ -55,6 +56,6 @@ uvicorn --host 0.0.0.0 --port 7860 api:api
 
 ## 使用方式二：docker
 ```bash
- #阿里云镜像
+#阿里云镜像
 docker run -it -d -p 8080:7860 --restart always --name chinese_lunar registry.cn-hangzhou.aliyuncs.com/bocai123/chinese_lunar:1.0 
 ```
